@@ -1,0 +1,15 @@
+#+title: The C# Player's Guide Solution Repository
+#+author: Ulysses Carlos
+
+* Introduction
+This repository contains answers to problems in RB Whitaker's _The C# Player's Guide_ (2016). These solutions were written on a Linux machine using .Net Core 5.0 (.Net 5) and Jetbrain Rider. These solutions should work on Windows and macOS running on .Net Core 5.0 or later.
+
+** Requirements
++ .Net Core 5.0 (.Net 5.0) or later
++ Jetbrain Rider (Or maybe Visual Studio)
++ A C# compiler that supports C# 7.0  
+** Chapter List
+*** Chapter 3 
+*** Chapter 4
+*** Chapter 6
+*** Chapter 7
