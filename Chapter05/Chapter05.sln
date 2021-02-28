@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter05", "Chapter05\Chapter05.csproj", "{78ED06FB-2C0C-4B95-991D-82960BE71BB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78ED06FB-2C0C-4B95-991D-82960BE71BB2}.Debug|x86.ActiveCfg = Debug|x86
+		{78ED06FB-2C0C-4B95-991D-82960BE71BB2}.Debug|x86.Build.0 = Debug|x86
+		{78ED06FB-2C0C-4B95-991D-82960BE71BB2}.Release|x86.ActiveCfg = Release|x86
+		{78ED06FB-2C0C-4B95-991D-82960BE71BB2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
+EndGlobal
