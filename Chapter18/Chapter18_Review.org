@@ -1,0 +1,21 @@
+#+title: Chapter 18 Review 
+#+author: Ulysses Carlos
+#+date: <2021-03-15 Mon>
+
+* Questions
+** True/False: Classes are references types (FALSE)
+** (Classes) define what a particular type of thing can do and store while an instance is a specific object that contains its own set of data.
+** Name three types of members that can be part of a class.
++ Constructors
++ Member variables (instance variables)
++ Member functions (Methods)    
+** True/False: If something is static, it is shared by all instances of a particular type (TRUE)
+** What is a special type of method that sets up a new instances called?
+Constructor.
+** Where can something *private* be accessed from?
+*private* Member variables (Instance variables) can be read/written through the use of class methods (Member functions), while *private* class methods (Member functions) can be called through other class methods (Member functions). A *private* class can only exist as a nested class within a class.
+** Where can something *public* be accessed from?
+A *public* class can be accessed anywhere.
+** Where can something *internal* be accessed from?
+A *internal* class/method/whatever can be accessed from within the same assembly or project. It is the default access modifier used in C#.
+
