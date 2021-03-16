@@ -9,7 +9,6 @@ namespace Chapter3 {
     class MainClass {
         public static void Main (string [] args) {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Also go fuck yourself.");
         }
     }
 }

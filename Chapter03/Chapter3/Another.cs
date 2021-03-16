@@ -15,7 +15,7 @@ namespace Chapter3 {
         public static void example(int val)
         {
             Console.WriteLine("I hate this code editing. Also, here's your "
-                              "fucking value: " + val);
+                              "value: " + val);
 
         }
 		

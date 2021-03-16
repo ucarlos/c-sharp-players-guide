@@ -45,32 +45,52 @@ namespace Color {
             this.blue_val = blue_val;
             this.alpha_val = 255;
         }
+        // Copy constructor
+        public Color(Color color) {
+            this.red_val = color.red_val;
+            this.green_val = color.green_val;
+            this.blue_val = color.blue_val;
+            this.alpha_val = color.alpha_val;
+        }
         
         // Typical setters and getters:
-        public byte get_red() { return red_val; }
-        public void set_red(byte val) { red_val = val; }
+        // Property Example:
+        public byte Red {
+            get {
+                return red_val;
+            }
+            set {
+                red_val = value;
+            }
+        }
+
+        public byte Blue {
+            get {
+                return blue_val;
+            }
+            set {
+                blue_val = value;
+            }
+        }
+
+        public byte Green {
+            get {
+                return green_val;
+            }
+            set {
+                green_val = value;
+            }
+        }
+
+        public byte Alpha {
+            get {
+                return alpha_val;
+            }
+            set {
+                alpha_val = value;
+            }
+        }
         
-        public byte get_blue() { return blue_val; }
-        public void set_blue(byte val) {
-            blue_val = val;
-        }
-
-        public byte get_green() {
-            return green_val;
-        }
-
-        public void set_green(byte val) {
-            green_val = val;
-        }
-
-        public byte get_alpha() {
-            return alpha_val;
-        }
-
-        public void set_alpha(byte val) {
-            alpha_val = val;
-        }
-
         public int grayscale() {
             return (blue_val + green_val + red_val) / 3;
         }

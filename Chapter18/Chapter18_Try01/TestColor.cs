@@ -27,9 +27,9 @@ namespace Color {
             ball3.Throw(); // Should be 7:
             
             // Now print their sizes:
-            Console.WriteLine($"Ball 1: \tSize: {ball1.get_size()}\tThrown {ball1.get_throw_count()} time(s)");
-            Console.WriteLine($"Ball 2: \tSize: {ball2.get_size()}\tThrown {ball2.get_throw_count()} time(s)");
-            Console.WriteLine($"Ball 3: \tSize: {ball3.get_size()}\tThrown {ball3.get_throw_count()} time(s)");
+            Console.WriteLine($"Ball 1: \tSize: {ball1.size}\tThrown {ball1.throw_count} time(s)");
+            Console.WriteLine($"Ball 2: \tSize: {ball2.size}\tThrown {ball2.throw_count} time(s)");
+            Console.WriteLine($"Ball 3: \tSize: {ball3.size}\tThrown {ball3.throw_count} time(s)");
 
         }
     }

@@ -27,28 +27,23 @@
 
 namespace Color {
     public class Ball {
-        private double size;
-        private int throw_count;
+        //private double size;
+        //private int throw_count;
         private Color color;
 
         public void Pop() { size = 0.0; }
 
-        public int get_throw_count() {
-            return throw_count;
-            
-        }
+        // Read-Only Auto-Initialized Property
+        public int throw_count { get; private set; }
+
         public void Throw() {
             if (size > 0) 
                 throw_count++;
         }
         
-        public double get_size() {
-            return size;
-        }
-
-        public void set_size(double val) {
-            size = val;
-        }
+        
+        // Auto-initialized Property Example
+        public double size { get; set; }
         
         // Constructors
         // Default constructor
